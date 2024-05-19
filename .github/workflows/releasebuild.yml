@@ -5,6 +5,7 @@ on:
     types:
       - published
   pull_request:
+    paths:
       - .github/workflows/releasebuild.yml
   workflow_dispatch:
 
